@@ -3,12 +3,10 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 /*global $*/
 $(document).ready(function(){
-  $(document).ready(function() {
     $('#button').click(function() {
-        var srch-term;
+        var srchTerm;
         var giphyUrl;
-  srch-term= $("#srch-term").val(); 
-
+ 
   $.ajax({
   url: "https://api.giphy.com/v1/stickers/search?q=dog&api_key=dc6zaTOxFJmzC",
   method: "GET",
@@ -32,4 +30,5 @@ $(document).ready(function(){
 });
   
   
+});
 });
