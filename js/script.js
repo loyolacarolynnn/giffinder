@@ -24,7 +24,7 @@ $(document).ready(function(){
         //Log the url from the orignial gif to the console  
         console.log(response.data[0].images.fixed_width.url);
         var gif = response.data[0].images.fixed_width.url;
-        $('body').append('<img src=' + gif + '>');
+        $('.text-center').html('<img src=' + gif + '>');
         
   },
 });
